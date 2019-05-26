@@ -81,6 +81,10 @@ background-color:#71b100;
 }
 
 /*Header*/
+.header-site{
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
 .header-site.principal {
 background: url(../img/header.jpg);
 background-position: center center;
@@ -289,6 +293,40 @@ flex-basis: 40%;
     padding-left: 5rem;
     font-weight: 300;
 }
+
+/*Footer*/
+.site-footer{
+    background-color: #333333;
+    margin: 0;
+}
+
+.contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright{
+    margin: 0;
+    color: white;
+}
+
+/*Paginas Internas*/
+
+/*Pagina Nosotros*/
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: 50% 50%; /*repeat(2,1fr)*/
+    grid-column-gap: 2rem;
+}
+
+.texto-nosotros blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
+}
+
 
 
  
