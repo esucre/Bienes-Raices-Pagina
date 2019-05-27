@@ -58,6 +58,10 @@ display: flex;
 justify-content: flex-end;
 }
 
+.contenido-centrado{
+    max-width: 800px;
+}
+
 /*Botones*/
 
 .boton{
@@ -182,6 +186,8 @@ margin: 0;
     padding: 0;
     display:flex;
     justify-content: space-around;
+    max-width: 500px;
+    flex: 1;
 }
 
 .iconos-caracteristicas li{
@@ -331,6 +337,17 @@ flex-basis: 40%;
     padding: 1rem 0 3rem 0;
 }
 
+/*Anuncio*/
+
+.resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenido-centrado p{
+    text-align: justify;
+}
 
 
  
